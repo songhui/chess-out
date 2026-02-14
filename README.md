@@ -1,7 +1,7 @@
 # chess-out
 A python-based chess interface
 
-## Quick start
+## Install (Docker Compose)
 
 Build and run the containers:
 
@@ -11,6 +11,12 @@ docker compose up --build
 
 - Frontend: http://localhost:3000
 - Backend: http://localhost:8000/api/health
+
+## How to use
+
+- Paste PGN into the editor.
+- Step Back/Forward or drag a piece to make a move.
+- Click a Stockfish suggestion to play it; hover to preview the arrow.
 
 ## What it does
 
@@ -42,3 +48,7 @@ npm run dev
 ```
 
 The Vite dev server proxies `/api` to `http://localhost:8000`.
+
+## Snapshot
+
+![PGN Note Explorer](docs/pgn-note-explorer.png)
